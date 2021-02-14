@@ -7,7 +7,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
+  // uri: "http://localhost:5000/graphql",
+  uri: "https://eliftech-ita.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
