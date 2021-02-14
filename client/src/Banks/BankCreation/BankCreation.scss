@@ -1,0 +1,23 @@
+.bank {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__creation {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 500px;
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5px;
+      margin: 0 0 10px 0;
+    }
+    &__btn {
+      padding: 5px;
+      width: 100%;
+    }
+  }
+}

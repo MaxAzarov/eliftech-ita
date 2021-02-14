@@ -1,0 +1,28 @@
+.bank-item {
+  display: flex;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  flex: 0 1 500px;
+  justify-content: space-between;
+  align-items: center;
+  &__delete {
+    font-size: 30px;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  &__name {
+    margin-right: 10px;
+  }
+  &__rate {
+    margin-right: 10px;
+  }
+  &__loan {
+    margin-right: 10px;
+  }
+}
